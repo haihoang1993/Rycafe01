@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:weightSum="100"
+    android:gravity="center_vertical"
+    >
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="70"
+        >
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên đồ uống"
+            android:textSize="30dp"
+            android:id="@+id/tvTendouong"
+            />
+		 <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+      	>   
+      		<TextView
+	            android:id="@+id/tvMadoduong"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="50"
+	            android:text="Mã đồ uống"
+	            android:textSize="13dp" />
+	        <TextView
+	            android:id="@+id/tvGhichu"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="50"
+	            android:text="Ghi chú"
+	            android:textSize="13dp" />
+		</LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+      	>            
+	     	   <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="333333333"
+	            android:textSize="13dp"
+	            android:layout_weight="50"
+	            android:inputType="numberDecimal"
+	            android:id="@+id/tvGianhap"
+	            
+		            />
+		        <TextView 
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:text="Giá nhập"
+	            android:textSize="13dp"
+	            android:layout_weight="50"
+	            android:id="@+id/tvGiaban"
+	            />
+		     
+		   </LinearLayout>
+    </LinearLayout>
+	 <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="30"
+            android:layout_gravity="center_vertical"
+      	>
+
+        	<ImageView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:src="@drawable/ic_delete"
+        	    android:id="@+id/ivDelete2"
+        	     />
+			<ImageView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:src="@drawable/ic_edit"
+        	    android:id="@+id/ivEdit2"
+        	     />
+     </LinearLayout>
+</LinearLayout>

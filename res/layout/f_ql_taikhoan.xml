@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+   >
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:weightSum="10"
+       android:orientation="vertical"
+       >
+	<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="8.5"
+		    android:weightSum="5"
+		    android:padding="5dp"
+		    android:orientation="horizontal"
+		   
+		    >
+		    <ListView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:id="@+id/lvTaikhoan"
+		            android:background="@drawable/b3"
+		        
+		        ></ListView>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1.5"
+		    android:gravity="center"
+		    android:padding="5dp"
+		    android:weightSum="5" >
+
+		    <ImageButton
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        
+		        android:layout_gravity="center"
+		        android:src="@drawable/ic_add_user2"
+		        android:background="@drawable/style_bt2"
+		        android:text="Thêm Tài Khoản"
+		        android:id="@+id/btnThemtk"
+		        android:textSize="20dp" />
+		</LinearLayout>
+
+	</LinearLayout>
+</RelativeLayout>

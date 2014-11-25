@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RyCafe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quanly_">Quanly_Activity</string>
+    <string name="title_activity_themdouong_">Themdouong_Activity</string>
+    <string name="title_activity_qly_tai_khoan_">QLyTaiKhoan_Activity</string>
+    <string name="title_activity_ban_cf_">BanCF_Activity</string>
+    <string name="title_activity_qly_danhmuc_">QlyDanhmuc_Activity</string>
+    <string name="title_activity_dangnhap_">Dangnhap_Activity</string>
+    <string name="title_activity_bancf_">Bancf_Activity</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    >
+    
+    <TextView 
+        android:text="Đề tài Ứng dụng android quán lý bán cà phê  Ry’s Café sẽ là 1 giải pháp mới hứ hẹn, đây là ứng dụng quản ly quán, bán café đơn giản. Ở đây người dùng có thể, có thêm dữ liệu là các thông tin  thức uống, giá mua vào, giá bán. Qua đó thông qua giao diện bán, để thực hiện việc bán café, cũng nhưng thông kê một cách dễ dàng"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

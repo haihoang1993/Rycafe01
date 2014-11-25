@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:weightSum="7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/borderbackground2"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvTenban0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten bàn"
+                android:textColor="#ff0000"
+                android:textStyle="bold"
+             
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" 
+            android:padding="5dp"
+            android:background="#cfcfcf"
+            >
+            <ListView 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/lvDouongban"
+                  android:background="@drawable/borderbackground"
+                ></ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/borderbackground2"
+             >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền:"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/tvTongtien"
+                android:layout_weight="3"
+                android:textSize="25dp" />
+            <ImageButton 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_thanhtoan"
+             	android:background="@drawable/style_bt2"
+             	android:id="@+id/btThanhtoan"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+	<LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="2dp"
+        android:weightSum="2"
+     >
+	    <ListView 
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/lvList1"
+	        android:layout_margin="3dp"
+	          android:background="@drawable/borderbackground"
+	        ></ListView>
+	    <ListView 
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:id="@+id/lvList2"
+	        android:layout_margin="3dp"
+	          android:background="@drawable/borderbackground"
+	        ></ListView>
+	</LinearLayout>
+    
+</LinearLayout>
